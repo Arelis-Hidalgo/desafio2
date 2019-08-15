@@ -1,0 +1,176 @@
+.pagina{
+    font-family: 'Lucida Sans';
+    font-style: oblique;
+    background-color: lightblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(6, 8, 156);
+    font-family: 'Lucida Sans';
+    font-style: oblique;
+}
+  
+li {
+    float: left;
+}
+  
+li a, button {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    font-family: 'Lucida Sans';
+    font-style: oblique;
+}
+
+
+#boton{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background: rgb(6, 8, 156);
+    border-radius: 10%;  
+    position:relative;
+    top: 20px;
+    left: 135px;
+}
+
+  
+li a:hover, button {
+    background-color: #111;
+}
+
+li{
+    float: right;
+    border-right: 1px solid #bbb;
+}
+
+#presentacion{
+    background-image: url("paine.jpg");
+    float: left;
+    width: 70%;
+    max-width: 70%;
+    min-width: 40%;
+    height: 550px;
+    max-height: 550px;
+    min-height: 200px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    font-size: 200%;
+    
+}
+
+#informacion{
+    float: right;
+    background-color: lightblue;
+    width: 30%;
+    max-width: 30%;
+    min-width: 0px;
+    height: 450px;
+    max-height: 550px;
+    min-height: 200px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#info2{
+    font-size: 40px;
+}
+
+#destino1{
+    padding: 20px;
+    width: 450px;
+    position: relative;
+    right: -50px;
+    float: left;
+}
+
+#destino2{
+    padding: 20px;
+    width: 400px;
+    position: relative;
+    float: left;
+}
+
+#destino3{
+    padding: 20px;
+    position: relative;
+    float: left;
+}
+
+.paquete{
+    background-color: lightblue;
+}
+
+#destino1 img{
+    width: 300px;
+    height: 300px;
+}
+
+#destino2 img{
+    width: 300px;
+    height: 300px;
+}
+
+#destino3 img{
+    width: 300px;
+    height: 300px;
+}
+
+#segundoh1{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.contacto{
+    background-color: lightblue;
+}
+
+#contacto1{
+    padding: 50px;
+    position: relative;
+    width: 400px;
+    height: 450px;
+    right: -70px;
+    float: left;
+    font-family: 'Lucida Sans';
+    text-align: justify;
+}
+
+#contacto2{
+    position: relative;
+    padding: 50px;
+    width: 300px;
+    float: right;
+    left: -250px;
+}
+
+form, input, textarea, button, h3{
+    font-family: 'Lucida Sans';
+    font-style: oblique;
+}
+
+input{
+    text-align: left;
+    width: 400px;
+    height: 26px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+textarea{
+    width: 400px;
+    height: 80px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#paquete1, #paquete2, #paquete3{
+    width: 100px;
+}
+
